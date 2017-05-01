@@ -57,6 +57,19 @@ The OpenWRT Configuration Manager system has an in-built IPAM (IP Allocation Man
 
 There are no specific requirements in terms of the data located in any one file. Subnets can be split between different CSV files, and 
 
+The following columns are used in the CSV file:
+
+- IP Address:
+- Device Name: Identifier for the device. This value is not used for DNS entries and so can be quite descriptive and does not need to be a legal DNS name.
+- Device Location: x
+- MAC Address: x
+- IPv6 Address: (Undergoing testing, not currently working)
+- WPA2 User: x
+- WPA2 Pass: x
+- VLAN ID: x
+- FQDN: x
+- Firmware Version: This is a free-text field for tracking the current version of firmware running on the device. Particularly useful for IoT devices, but 
+
 ### Profiles
 
 Profiles are used to direct the system on how to 

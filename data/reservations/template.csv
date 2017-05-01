@@ -2,5 +2,5 @@ IP Address,Device Name,Device Location,MAC Address,IPv6 Address,WPA2 User,WPA2 P
 REM,Router IP Addresses,,,,,,,,,
 192.168.28.1,vip,,,,,,28,,,
 REM,Network Services
-192.168.28.10,logserver,VM,56:47:bc:a8:cd:6c,fd77:1dd0:fc21:28::10,,,28,logserver.mel1.nate.id.au,,
+192.168.28.10,logserver,VM,56:47:bc:a8:cd:6c,fd77:1dd0:fc21:28::10,,,28,logserver,,
 REM,End of Allocation,,,,,,,,,
